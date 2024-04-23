@@ -1,0 +1,8 @@
+/* Oyun tahtasını temsil eden grid öğesine ait stiller */
+
+#grid {
+    display: inline; /* Öğeleri yatay olarak sıralar */
+    flex-wrap: wrap; /* Eğer öğeler tahtanın sığabileceği kadar yatay alana sahip değilse, bir sonraki satıra geçer */
+    width: 400px; /* Grid'in genişliğini 400 piksel olarak ayarlar */
+    height: 300px; /* Grid'in yüksekliğini 300 piksel olarak ayarlar */
+}
